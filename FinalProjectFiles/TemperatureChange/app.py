@@ -8,8 +8,8 @@ import math
 import dash_bootstrap_components as dbc
 
 # Load the dataset
-file_path = '/Users/fionamagee/Desktop/data/dataset1.csv'
-file_path2 = '/Users/fionamagee/Desktop/data/dataset2.csv'
+file_path = '/data/dataset1.csv'
+file_path2 = '/data/dataset2.csv'
 data = pd.read_csv(file_path)
 data2 = pd.read_csv(file_path2)
 
