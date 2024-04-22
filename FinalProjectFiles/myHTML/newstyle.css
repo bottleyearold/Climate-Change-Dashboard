@@ -1,0 +1,79 @@
+body{
+    background-color: #b8cbe0;
+  }
+  
+  
+  
+  .navbar {
+      background-color: #132c48ff !important; 
+  }
+  .nav-link {
+      color: white !important; 
+  }
+  .nav-link:hover {
+      color: #bc8cbaff !important; 
+    }
+  .navbar-bottom{
+      background-color: #132c48ff !important;
+  }
+  .navbar-bottom .navbar-collapse {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  .navbar-bottom .nav-item {
+      padding-left: 30px;
+      padding-right: 30px;
+  }
+  .randomTEST{
+      padding-top: 20px;
+      color:black;
+      max-width: 600px;
+  }
+  .flex-container {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      padding: 20px;
+    }
+    
+    .flex-row {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 10px; /* Adds space between the rows */
+    }
+    
+    .flex-item {
+      flex-basis: calc(50% - 10px); /* Set width for 2 items per row, subtracting margin */
+      margin: 5px; /* Creates a gap between the items */
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Adds a shadow for depth */
+      padding: 10px;
+      box-sizing: border-box;
+      /* To ensure items in the same row have equal height */
+      display: flex;
+      flex-direction: column;
+      background-color: white
+    }
+    
+    /* Clear the margin bottom for the last row */
+    .flex-row:last-child {
+      margin-bottom: 0;
+    }
+    
+    /* Responsive design for smaller screens */
+    @media (max-width: 600px) {
+      .flex-row {
+        flex-direction: column;
+      }
+      .flex-item {
+        flex-basis: auto; /* Items take full width on small screens */
+      }
+    }
+  
+    .title{
+      padding-left: 20px
+    }
+  
+    .links{
+      color: blue;
+    }
