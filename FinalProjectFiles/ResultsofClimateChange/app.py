@@ -65,7 +65,7 @@ navbar = html.Div(
             [
                 dbc.NavItem(dbc.NavLink("Overview", href="#", style= {"padding-left": "35px", "padding-right": "35px", 'color': 'white'})),
                 dbc.NavItem(dbc.NavLink("Result of Climate Change", href="#", style= {"padding-left": "35px", "padding-right": "35px", 'color': 'white'})),
-                dbc.NavItem(dbc.NavLink("Temperature Change", href="https://finaldashboard-4.onrender.com", style= {"padding-left": "35px", "padding-right": "35px", 'color': 'white'})),
+                dbc.NavItem(dbc.NavLink("Temperature Change", href="https://finaldashboard-7.onrender.com", style= {"padding-left": "35px", "padding-right": "35px", 'color': 'white'})),
                 dbc.NavItem(dbc.NavLink("More References", href="MoreReference.html", style= {"padding-left": "35px", "padding-right": "35px", 'color': 'white'})),
             ],
             className="ms-auto",
